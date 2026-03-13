@@ -33,6 +33,7 @@ const Home = () => {
       <section className="grid w-full gap-8 home-section">
         <div className="h-full md:col-span-1 xl:col-span-1">
           <TradingViewWidget
+            title="Trending News With"
             scriptUrl="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js"
             config={TOP_STORIES_WIDGET_CONFIG}
             className="custom-chart"
